@@ -1,16 +1,21 @@
-# Threads 赚钱保姆级攻略 · 2026
+<div align="center">
 
-> 24 章可验证实操教程 · 6 条变现路线 · 24 份可改写模板 · 36 FAQ · 收益模型计算器 · 30 天执行清单
->
-> 原则：**不要把“浏览量”当收入。先弄清谁愿意为你解决的哪个问题付费。**
+<a href="https://github.com/AIPMAndy/threads-income-handbook"><img src="assets/readme-cover.svg" alt="Threads 赚钱实战指南封面" width="100%" /></a>
 
-本项目是一份**完全开源、可静态部署**的 Threads 商业化教程和苹果风/流动玻璃交互网站，不包含后台、账号爬虫、批量私信或刷量工具。适合通过专业服务、数字产品、B2B 线索、联盟营销、品牌合作与社区会员获利的作者。
+<h1>Threads 赚钱实战指南</h1>
+<p><strong><a href="https://aipmandy.github.io/threads-income-handbook/">🌐 在线网站</a> · <a href="HANDBOOK.md">📖 24 章全文</a> · <a href="TEMPLATES.md">✍️ 24 份模板</a> · <a href="docs/30_DAY_PLAN.md">🗓️ 30 天计划</a></strong></p>
 
-- 维护日期：**2026-10-24**。
-- 编辑：**AI 酋长 Andy**。
-- 微信：**`AIPMAndy`**（网站顶部、手册侧栏与页脚可一键复制）。
-- 官网：<https://metaver.vip/> ｜ 服务：<https://metaver.vip/services>。
-- 拟部署地址（**只有创建仓库并开启 Pages 后才可访问**）：`https://aipmandy.github.io/threads-income-handbook/`。
+<p><a href="https://github.com/AIPMAndy/github-income-handbook">GitHub 赚钱</a>　·　<a href="https://github.com/AIPMAndy/x-income-handbook">X 赚钱</a>　·　<a href="https://github.com/AIPMAndy/threads-income-handbook">Threads 赚钱</a></p>
+
+<p><sub>AI 酋长 Andy · <a href="https://metaver.vip/">个人官网</a> · <a href="https://metaver.vip/services">咨询与陪跑</a> · 微信：<code>AIPMAndy</code></sub></p>
+
+</div>
+
+## 3 分钟开始
+
+1. **先读全文**：从 [24 章教程](HANDBOOK.md) 的定位、主页和前十条开始。
+2. **直接发布**：按 [内容模板](TEMPLATES.md) 改写真实经历，避免编造成交和群发营销。
+3. **复盘结果**：使用 [30 天计划](docs/30_DAY_PLAN.md) 与 [客户记录表](docs/THREADS_CRM_TEMPLATE.csv) 追踪有效线索。
 
 ## 目录
 
@@ -42,19 +47,14 @@ python3 scripts/build.py --check
 
 **无 pip 依赖、无需 Node、无需数据库。** 构建脚本生成 31 个独立 HTML 页面和站点地图，适合搜索引擎抓取。CSS、JavaScript 均在 `assets/` 内，网站不向第三方上传用户填写的计算器数字。
 
-### 上线 GitHub Pages
+### GitHub Pages 发布
 
-**快捷发布（已登录 GitHub CLI）：** 在项目根目录运行 `bash publish.sh`。如果没有 `gh`，先在 GitHub 创建公开空仓库，再运行同一脚本。详情见 [`PUBLISH.md`](PUBLISH.md)。
+仓库已公开，采用 [GitHub Actions 工作流](.github/workflows/pages.yml) 构建、检查并部署。
 
-
-1. 新建**公开**仓库 `AIPMAndy/threads-income-handbook`，主分支为 `main`。
-2. 将本项目文件（包括 `.github/workflows/pages.yml`）提交到 `main`；务必保留 `.github` 隐藏文件夹。
-3. 到仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
-4. 检查仓库 **Actions → Build, verify, and deploy GitHub Pages** 是否全部通过。
-5. 最终访问预期地址 <https://aipmandy.github.io/threads-income-handbook/>，实际可访问性以部署成功为准。
-6. 建议到 **Settings → General → Social preview** 手动上传 `assets/social-preview.png`。此步骤不同于网页中的 `og:image`，无法由常规 Pages 构建自动替你设置。
-
-> 当前包仅是**仓库就绪文件**。创建 GitHub 仓库和启用 Pages 需要具有相应权限的仓库操作；不要将拟部署 URL 当作已上线站点。
+1. 到 **Settings → Pages → Build and deployment → Source** 确认 **GitHub Actions**。
+2. 到 [Actions](https://github.com/AIPMAndy/threads-income-handbook/actions) 检查最近一次构建和部署状态。
+3. 访问 [在线网站](https://aipmandy.github.io/threads-income-handbook/)，核验移动端、章节、模板和工具台。
+4. 到 **Settings → General → Social preview** 上传 `assets/social-preview.png`（仓库预览图需要手动设置）。
 
 ## 网站功能
 
@@ -120,7 +120,7 @@ sitemap.xml / robots.txt / 404.html
 
 ## V2 对话式审查
 
-见 [`docs/ADVERSARIAL_AUDIT.md`](docs/ADVERSARIAL_AUDIT.md)，包含五角色反对意见、具体修改证据与未解决风险。新的 [`lab.html`](lab.html) 免费实操工具台已随源码打包，实际部署之前并非线上可访问。
+见 [`docs/ADVERSARIAL_AUDIT.md`](docs/ADVERSARIAL_AUDIT.md)，包含五角色反对意见、具体修改证据与未解决风险。新的 [`lab.html`](lab.html) 免费实操工具台已随源码打包，实际能否访问以最新 Pages 部署及在线验收为准。
 
 ## 本轮质量检查与局限
 
