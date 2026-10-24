@@ -44,7 +44,32 @@ def home():
     faqs=''.join(f'<details><summary>{e(q)}<span>+</span></summary><p>{e(a)}</p></details>' for q,a in FAQ[:12])
     plans=[('01','建立最小交易闭环','定位、服务、主页与收款测试','day1'),('02','发布第一轮 10 条内容','方法、故事、反例和服务说明','day2'),('03','验证精准需求','记录真实咨询，补齐交付与报价','day3'),('04','完成数据复盘','据漏斗判断坚持、调整或停止','day4')]
     plan_html=''.join(f'''<label class="plan-item"><input type="checkbox" data-plan="{id}"><span class="plan-num">{n}</span><span><strong>{t}</strong><small>{d}</small></span><span class="plan-check">✓</span></label>''' for n,t,d,id in plans)
-    body=f'''<main id="main"><section class="hero shell"><div class="hero-left"><div class="eyebrow with-dot">UPDATED OCT 2026 <span class="dot-divider">/</span> THE PRACTICAL PLAYBOOK</div><h1>THREADS<span class="hero-accent">赚钱</span><br>保姆级攻略<span class="hero-asterisk">✳</span></h1><p class="hero-lead">别先追求十万阅读。<br><strong>先搞清楚，谁会为你解决的问题付费。</strong></p><p class="hero-summary">从零起号、内容定位、精准互动，到咨询、数字产品、商单与复盘。24 章可执行教程，配套现成模板、定价工具与风险清单。</p><div class="hero-buttons"><a class="btn btn-primary" href="handbook.html">开始系统学习 <span>↗</span></a><a class="btn btn-outline" href="lab.html">诊断我该走哪条路 <span>↓</span></a></div><div class="hero-proof"><span><b>24</b> 章实操</span><i></i><span><b>6</b> 种模式</span><i></i><span><b>24</b> 份模板</span><i></i><span>免费开源</span></div></div><div class="hero-visual" aria-label="Threads 从内容到收入的商业闭环示意图"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="glass visual-board"><div class="board-head"><div class="board-lights"><i></i><i></i><i></i></div><span>THE INCOME ENGINE</span><span class="board-live"><i></i> DEMO MODEL</span></div><div class="board-content"><div class="board-center-mark">◎</div><div class="board-breadcrumb">A SUSTAINABLE SYSTEM</div><h3>Attention → <em>Trust</em> → Revenue</h3><div class="funnel-nodes"><div><span class="node-number">01</span><strong>写出有价值的内容</strong><small>真实经历 / 方法 / 案例</small></div><span class="node-line"></span><div><span class="node-number">02</span><strong>吸引需要帮助的人</strong><small>自愿互动 / 主页点击</small></div><span class="node-line"></span><div><span class="node-number">03</span><strong>交付并获得付款</strong><small>服务 / 商品 / 商单</small></div></div><div class="board-foot"><span>不保证收益 · 禁止刷量与骚扰获客</span><span class="sparkline">╱╲╱╲╱╲</span></div></div></div><div class="floating-chip chip-top"><b>01</b><span>找到真实需求</span></div><div class="floating-chip chip-bottom"><b>02</b><span>做小产品实验</span></div></div></section>
+    body=f'''<main id="main"><section class="hero shell" aria-labelledby="hero-title">
+  <div class="hero-left">
+    <div class="ed-kicker">A FIELD GUIDE FOR INDEPENDENT CREATORS / NO. 03</div>
+    <h1 id="hero-title">先有客户。<br><span class="hero-accent">再谈流量。</span></h1>
+    <p class="ed-hero-lead">在 Threads 上发内容，最后是谁给你付钱？</p>
+    <p class="ed-hero-desc">24 章免费教程。从定位、写作、有效互动，到服务、数字产品与业务复盘。只讲可以执行和验证的事。</p>
+    <div class="ed-hero-actions">
+      <a class="btn btn-primary" href="handbook.html">开始阅读 24 章 ↗</a>
+      <a class="btn btn-outline" href="lab.html">打开转化实验室 ↗</a>
+    </div>
+    <div class="ed-proof"><span><b>24</b> 章教程</span><span><b>06</b> 条变现路径</span><span><b>30</b> 天行动清单</span></div>
+  </div>
+  <aside class="ed-feature hero-visual" aria-label="Threads 内容商业化的三项判断">
+    <div class="ed-feature-head"><span>THE INDEPENDENT JOURNAL</span><span>ISSUE / 03</span></div>
+    <div>
+      <div class="ed-feature-large" style="font-size:clamp(36px,4vw,63px);letter-spacing:-.075em;line-height:1.13;margin:30px 0">被看见，<br>然后被需要。</div>
+      <p class="ed-feature-caption">读者看完一条帖子后，应该知道什么？</p>
+      <div class="ed-feature-list">
+        <div class="ed-feature-row"><small>01</small><span>你解决什么具体问题</span><em>定位</em></div>
+        <div class="ed-feature-row"><small>02</small><span>为什么应该相信你</span><em>证据</em></div>
+        <div class="ed-feature-row"><small>03</small><span>需要帮助时去哪找你</span><em>行动</em></div>
+      </div>
+    </div>
+    <p class="ed-feature-note">平台浏览量不等于收入。所有案例、资格、价格和业务结果，均须独立验证。</p>
+  </aside>
+</section>
 <section class="credibility shell"><div><b>先把事实讲清楚</b><p>Threads 历史创作者奖金计划已终止。平台开放广告业务，不等于每个作者按浏览量获得分成。</p></div><a href="#sources">查看平台和监管来源 ↗</a></section>
 <section class="lab-promo shell glass"><div class="lab-promo-copy"><span class="eyebrow">NEW / THE CONVERSION WORKBENCH</span><h2>你的账号卡在哪一步？<br><span>30 秒做一次漏斗诊断。</span></h2><p>用真实的汇总数据判断瓶颈，再生成服务卡和下一步行动。全部在本地计算，不要求交出客户隐私。</p></div><a href="lab.html" class="btn btn-primary">进入免费实验室 <span>↗</span></a><div class="lab-orb" aria-hidden="true"></div></section>
 <section class="section shell" id="paths"><div class="section-header"><div><div class="eyebrow">01 / MONETIZATION MAP</div><h2>六条变现路径。<br><span>选一条，先跑通。</span></h2></div><p>这六条路径指向不同的付款方、交付模式和时间成本。新手优先选自己已经能交付的能力。</p></div><div class="route-grid">{paths}</div></section>
