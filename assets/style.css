@@ -164,3 +164,12 @@ body{font-size:15px}
 @media(max-width:950px){.hero{grid-template-columns:1fr!important;padding-top:77px!important}.hero-visual{max-width:650px!important}}
 @media(max-width:650px){.hero{padding:56px 0 55px!important;gap:30px!important}.hero h1{font-size:clamp(55px,11vw,80px)!important}.ed-feature{max-width:100%!important}}
 
+
+
+/* Native palette reconciliation across generated guides, lab and plan. */
+:root{--bg:#F6F1E8;--ink:#2C2824;--muted:#756D63;--quiet:#81796F;--teal:#B44B37;--blue:#B44B37;--line:#DCD2C4;--glass:#FFFCF7;--glass-hi:#FFFCF7;--radius:8px}
+:where(.article-section,.steps-list,.lab-panel,.case-card,.plan-panel,.handbook-card,.library-tools,.template-card,.faq-list details,.all-templates .template-card){color:var(--ed-ink)!important;background:var(--ed-paper)!important;border-color:var(--ed-line)!important;box-shadow:none!important}
+:where(.article-section p,.steps-list p,.lab-panel p,.handbook-card p,.library-tools p){color:var(--ed-muted)!important}
+:where(.funnel-footer,.daily-end,.calc-right,.plan-progress,.bar-track){background:var(--ed-soft)!important;color:var(--ed-ink)!important;border-color:var(--ed-line)!important}
+:where(.source-item,.faq-list details,.toc-link){border-color:var(--ed-line)!important}
+:where(.text-button,.inline-link,.source-arrow,.section-index){color:var(--ed-accent)!important}
