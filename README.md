@@ -69,7 +69,7 @@ python3 scripts/build.py --check
 | 功能 | 处理方式 |
 | --- | --- |
 | 24 篇独立静态 SEO 章节 | 每篇有独立 canonical、description、导航和上一章/下一章 |
-| 苹果风玻璃质感 | 背景深空渐变、渐透玻璃、流动光晕、响应式布局、减少动态效果支持 |
+| 编辑式视觉系统 | 暖纸色调、精确字阶、响应式布局、减少动态效果支持 |
 | 10 章重点实操进阶 | 补齐账号设置、主页、前 10 条、私信、报价、真实数据等细节验收 |
 | 30 天互动执行计划 | 逐日步骤、验收件、停止条件，并将勾选进度存于当前浏览器 |
 | 转化实验室 | 诊断漏斗瓶颈、生成可复制服务卡、使用实际数据核对报价/付款/到账/部分成本；不保存客户个人资料 |
@@ -98,7 +98,7 @@ lab.html                  转化实验室（新增）
 plan.html                 30 天可勾选行动计划（新增）
 templates.html            24 条可复制内容模板
 guide/*.html              24 篇 SEO 独立章节
-assets/style.css          响应式 Liquid Glass 样式
+assets/style.css          响应式编辑式样式
 assets/app.js             浏览器本地交互
 src/advanced.py           实操进阶、诊断建议与示范场景
 assets/social-preview.png 社交分享预览图
