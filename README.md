@@ -3,6 +3,14 @@
 <a href="https://github.com/AIPMAndy/threads-income-handbook"><img src="assets/readme-cover.svg" alt="Threads 赚钱实战指南封面" width="100%" /></a>
 
 <h1>Threads 赚钱实战指南</h1>
+<p><strong>用内容找到客户，用可交付的结果完成变现</strong></p>
+<p>24 章教程 · 6 条商业路径 · 36 条 FAQ</p>
+
+<p>
+<a href="https://github.com/AIPMAndy/threads-income-handbook/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/AIPMAndy/threads-income-handbook?style=flat-square&amp;color=7c8cff" /></a>
+<a href="LICENSE"><img alt="开源许可" src="https://img.shields.io/github/license/AIPMAndy/threads-income-handbook?style=flat-square" /></a>
+<a href="https://github.com/AIPMAndy/threads-income-handbook/actions/workflows/pages.yml"><img alt="GitHub Pages" src="https://github.com/AIPMAndy/threads-income-handbook/actions/workflows/pages.yml/badge.svg" /></a>
+</p>
 <p><strong><a href="https://aipmandy.github.io/threads-income-handbook/">🌐 在线网站</a> · <a href="HANDBOOK.md">📖 24 章全文</a> · <a href="TEMPLATES.md">✍️ 24 份模板</a> · <a href="docs/30_DAY_PLAN.md">🗓️ 30 天计划</a></strong></p>
 
 <p><a href="https://github.com/AIPMAndy/github-income-handbook">GitHub 赚钱</a>　·　<a href="https://github.com/AIPMAndy/x-income-handbook">X 赚钱</a>　·　<a href="https://github.com/AIPMAndy/threads-income-handbook">Threads 赚钱</a></p>
