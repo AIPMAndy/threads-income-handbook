@@ -1,0 +1,34 @@
+# Threads 赚钱实战指南（Threads Income Handbook）
+
+> Threads 怎么赚钱？AI 酋长 Andy 写的免费开源中文指南：24 章教程、6 条商业路径、24 份模板、30 天实践计划，覆盖内容定位、客户转化与交付。收入计算均为假设。
+
+任何报价、销量、转化率和收入计算都只是用户输入的假设，不构成收益预测或承诺。
+
+## 主要内容
+
+- [在线指南首页](https://aipmandy.github.io/threads-income-handbook/): 六条变现路径、收入模型、30 天验证计划、模板、FAQ
+- [24 章全部目录](https://aipmandy.github.io/threads-income-handbook/handbook.html): 每章含操作步骤、示例、验收产物、指标和常见坑
+- [36 条常见问题](https://aipmandy.github.io/threads-income-handbook/faq.html): 平台收入、变现方式、风险
+- [转化实验室](https://aipmandy.github.io/threads-income-handbook/lab.html): 漏斗诊断、服务卡生成、报价核对
+- [30 天计划](https://aipmandy.github.io/threads-income-handbook/plan.html): 逐日步骤与停止条件
+- [GitHub 仓库](https://github.com/AIPMAndy/threads-income-handbook)
+
+## 常见问题
+
+- Threads 有创作者奖金或播放分成吗？曾有的创作者奖金计划已停止，不能按播放分成计算收入。
+- 这是 Threads 官方教程吗？不是，本项目与 Meta / Threads / Instagram 无合作或官方背书关系。
+
+## 作者 About the author
+
+- AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+- AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is a former Tencent and Baidu AI product expert and former VP at an LLM unicorn, now a serial entrepreneur focused on AI and product methodology.
+- 联系：微信 AIPMAndy · X https://x.com/AIPMAndy · Telegram https://t.me/AIPMAndy · 网站 https://metaver.vip/ · GitHub https://github.com/AIPMAndy
+
+## 作者的其他指南
+
+- [GitHub 赚钱实战指南](https://aipmandy.github.io/github-income-handbook/)
+- [X (Twitter) 赚钱实战指南](https://aipmandy.github.io/x-income-handbook/)
+- [用 ChatGPT 赚钱保姆级攻略](https://aipmandy.github.io/chatgpt-income-handbook/)
+- [失业自救手册](https://aipmandy.github.io/how-to-survive-unemployment/)
+- [中国人赚美金攻略](https://aipmandy.github.io/how-to-earn-usd-from-china/)
+- [Grok Bot 中文攻略](https://aipmandy.github.io/grok-bot-handbook/)
