@@ -19,6 +19,11 @@
 
 </div>
 
+**Threads 怎么赚钱？** 这是 AI 酋长 Andy 写的免费开源中文指南：24 章教程、6 条商业路径、24 份模板和 30 天实践计划，覆盖内容定位、客户转化与交付。所有收入计算都只是假设，不构成收益承诺。
+
+*How to make money on Threads: a free, open-source Chinese guide by AI Chief Andy (@AIPMAndy), with 24 chapters, 6 business paths, 24 templates and a 30-day plan.*
+
+
 ## 3 分钟开始
 
 1. **先读全文**：从 [24 章教程](HANDBOOK.md) 的定位、主页和前十条开始。
@@ -133,3 +138,44 @@ sitemap.xml / robots.txt / 404.html
 ## 本轮质量检查与局限
 
 参见 [`docs/QA_REPORT.md`](docs/QA_REPORT.md)。已完成静态生成、链接完整性、Node 业务逻辑测试；该执行环境阻止 Chromium 对本地页面导航，**未完成真实浏览器视觉回归**。如在自己的电脑部署，请额外执行可选的 `python scripts/browser_check.py`（需 Chromium 与 Playwright）。
+
+---
+
+## 常见问题 FAQ
+
+### Threads 有创作者奖金或播放分成吗？
+
+Threads 曾有的创作者奖金计划已经停止，不能按固定播放分成计算收入，依据见 [docs/SOURCES.md](docs/SOURCES.md)。
+
+### 那靠 Threads 怎么变现？
+
+靠内容找到客户，再交付客户愿意付钱的结果。教程讲了服务交付、数字产品、联盟营销、品牌合作、B2B、会员等路径，判断标准是有没有清晰的付款方和交付件。
+
+### 我该从哪里开始？
+
+先读 [24 章教程](HANDBOOK.md) 的定位、主页和前十条，再按 [内容模板](TEMPLATES.md) 改写自己的真实经历发布，用 [30 天计划](docs/30_DAY_PLAN.md) 追踪有效线索。
+
+### 这是 Threads 官方教程吗？
+
+不是。本项目与 Meta / Threads / Instagram 没有合作或官方背书关系，是 AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）写的免费开源教程。
+
+<!-- andy-author-card:start -->
+## 作者 / About the author
+
+**AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）**：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+
+微信 `AIPMAndy`（备注「Threads 赚钱攻略」） · [X @AIPMAndy](https://x.com/AIPMAndy) · [Telegram @AIPMAndy](https://t.me/AIPMAndy) · [个人官网 metaver.vip](https://metaver.vip/)
+
+*AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is a former Tencent and Baidu AI product expert and former VP at an LLM unicorn, now a serial entrepreneur focused on AI and product methodology.*
+
+### Andy 的其他免费指南
+
+- [GitHub 赚钱实战指南](https://aipmandy.github.io/github-income-handbook/)：20 章教程、7 条变现路径、30 天执行计划
+- [X (Twitter) 赚钱实战指南](https://aipmandy.github.io/x-income-handbook/)：26 章教程、7 条变现路径、24 套模板
+- [用 ChatGPT 赚钱保姆级攻略](https://aipmandy.github.io/chatgpt-income-handbook/)：34 章教程、10 个服务包、64 套提示词
+- [失业自救手册](https://aipmandy.github.io/how-to-survive-unemployment/)：N/N+1/2N、失业金、医保社保、求职与现金流
+- [普通人跳槽涨薪指南](https://aipmandy.github.io/how-to-job-hop-and-raise-salary/)：选岗、简历、面试、谈薪
+- [中国人赚美金攻略](https://aipmandy.github.io/how-to-earn-usd-from-china/)：8 种海外收入路线
+- [Grok Bot 中文攻略](https://aipmandy.github.io/grok-bot-handbook/)：AI Agent 中文教程
+
+<!-- andy-author-card:end -->
