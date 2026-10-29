@@ -159,6 +159,11 @@ Threads 曾有的创作者奖金计划已经停止，不能按固定播放分成
 
 不是。本项目与 Meta / Threads / Instagram 没有合作或官方背书关系，是 AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）写的免费开源教程。
 
+## 说明
+
+Third-party brand names, logos, and linked materials remain the property of
+their respective rights holders and are not licensed here.
+
 <!-- andy-author-card:start -->
 ## 作者 / About the author
 
