@@ -15,11 +15,11 @@
 
 <p><a href="https://github.com/AIPMAndy/github-income-handbook">GitHub 赚钱</a>　·　<a href="https://github.com/AIPMAndy/x-income-handbook">X 赚钱</a>　·　<a href="https://github.com/AIPMAndy/threads-income-handbook">Threads 赚钱</a></p>
 
-<p><sub>AI 酋长 Andy · <a href="https://metaver.vip/">个人官网</a> · <a href="https://metaver.vip/services">咨询与陪跑</a> · 微信：<code>AIPMAndy</code></sub></p>
+<p><sub>AI酋长Andy · <a href="https://metaver.vip/">个人官网</a> · <a href="https://metaver.vip/services">咨询与陪跑</a> · 微信：<code>AIPMAndy</code></sub></p>
 
 </div>
 
-**Threads 怎么赚钱？** 这是 AI 酋长 Andy 写的免费开源中文指南：24 章教程、6 条商业路径、24 份模板和 30 天实践计划，覆盖内容定位、客户转化与交付。所有收入计算都只是假设，不构成收益承诺。
+**Threads 怎么赚钱？** 这是 AI酋长Andy 写的免费开源中文指南：24 章教程、6 条商业路径、24 份模板和 30 天实践计划，覆盖内容定位、客户转化与交付。所有收入计算都只是假设，不构成收益承诺。
 
 *How to make money on Threads: a free, open-source Chinese guide by AI Chief Andy (@AIPMAndy), with 24 chapters, 6 business paths, 24 templates and a 30-day plan.*
 
@@ -157,7 +157,7 @@ Threads 曾有的创作者奖金计划已经停止，不能按固定播放分成
 
 ### 这是 Threads 官方教程吗？
 
-不是。本项目与 Meta / Threads / Instagram 没有合作或官方背书关系，是 AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）写的免费开源教程。
+不是。本项目与 Meta / Threads / Instagram 没有合作或官方背书关系，是 AI酋长Andy（Andy Liu，GitHub/X @AIPMAndy）写的免费开源教程。
 
 ## 说明
 
@@ -167,7 +167,7 @@ their respective rights holders and are not licensed here.
 <!-- andy-author-card:start -->
 ## 作者 / About the author
 
-**AI 酋长 Andy（Andy Liu，GitHub/X @AIPMAndy）**：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+**AI酋长Andy（Andy Liu，GitHub/X @AIPMAndy）**：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
 
 微信 `AIPMAndy`（备注「Threads 赚钱攻略」） · [X @AIPMAndy](https://x.com/AIPMAndy) · [Telegram @AIPMAndy](https://t.me/AIPMAndy) · [个人官网 metaver.vip](https://metaver.vip/)
 

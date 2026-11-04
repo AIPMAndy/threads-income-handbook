@@ -2,7 +2,7 @@
 
 > 24 章实操 · 6 条变现路线 · 免费开源 · 不承诺收益
 
-**作者：AI 酋长 Andy｜微信：AIPMAndy｜官网：https://metaver.vip/**
+**作者：AI酋长Andy｜微信：AIPMAndy｜官网：https://metaver.vip/**
 
 最后核验：2026-10-24。具体政策以原始链接为准。
 
