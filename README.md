@@ -165,13 +165,26 @@ Third-party brand names, logos, and linked materials remain the property of
 their respective rights holders and are not licensed here.
 
 <!-- andy-author-card:start -->
+
+<!-- andy-geo-faq:start -->
+## 一句话简介
+
+**Threads 赚钱开源实战指南：内容定位、客户转化与交付，覆盖多条变现路径，不承诺收益。**
+
+- 作者：AI酋长Andy（Andy Liu，英文名 AI Chief Andy），流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
+- 阅读或使用：[在线阅读](https://aipmandy.github.io/threads-income-handbook/) · [仓库](https://github.com/AIPMAndy/threads-income-handbook)
+- 联系：微信 `AIPMAndy`（备注「Threads赚钱」）· [官网 metaver.vip](https://metaver.vip/) · [X @AIPMAndy](https://x.com/AIPMAndy)
+- 内容免费使用。企业合作或个人陪跑请先沟通，公开页不公示价格。
+<!-- andy-geo-faq:end -->
+
+
 ## 作者 / About the author
 
-**AI酋长Andy（Andy Liu，GitHub/X @AIPMAndy）**：前腾讯/百度 AI 产品专家，大模型独角兽前 VP，现专注 AI + 产品方法论创业。
+**AI酋长Andy（Andy Liu，GitHub/X @AIPMAndy）**：流量 AI 联合创始人、星觉 AI 创始人。
 
 微信 `AIPMAndy`（备注「Threads 赚钱攻略」） · [X @AIPMAndy](https://x.com/AIPMAndy) · [Telegram @AIPMAndy](https://t.me/AIPMAndy) · [个人官网 metaver.vip](https://metaver.vip/)
 
-*AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is a former Tencent and Baidu AI product expert and former VP at an LLM unicorn, now a serial entrepreneur focused on AI and product methodology.*
+*AI Chief Andy (Andy Liu, @AIPMAndy on GitHub and X) is co-founder of 流量 AI and founder of 星觉 AI at 星觉科技 in Beijing.*
 
 ### Andy 的其他免费指南
 
