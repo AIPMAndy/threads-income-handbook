@@ -1,0 +1,27 @@
+{
+  "repo": "threads-income-handbook",
+  "title": "Threads 赚钱实战指南",
+  "date": "2026-11-13",
+  "source_commit": "c4df95e79e11dda3ab6415636225bf193da8f90d",
+  "pages": 57,
+  "sections": 5,
+  "source_files": [
+    "HANDBOOK.md",
+    "TEMPLATES.md",
+    "docs/30_DAY_PLAN.md",
+    "docs/SALES_SOP.md",
+    "docs/SOURCES.md"
+  ],
+  "website": "https://aipmandy.github.io/threads-income-handbook/",
+  "bytes": 792421,
+  "sha256": "a4a0e3dba1f1613300b245bceebec31c03cc55c8b8d1bc1cc9b13168320ac9ee",
+  "pdf_path": "pdf/threads-income-handbook-guide.pdf",
+  "contacts": {
+    "personal_website": "https://metaver.vip/",
+    "company_website": "https://www.a6no1.cn/",
+    "wechat": "AIPMAndy",
+    "public_account": "AI 酋长 Andy"
+  },
+  "edition": "A5 · 黑白金实操系列 · PDF 2026.11",
+  "notes": "PDF编排日期不代表所有外部政策与价格的重新核验日期。源文件许可与案例标注继续适用。"
+}

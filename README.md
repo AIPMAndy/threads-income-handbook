@@ -19,6 +19,17 @@
 
 </div>
 
+<!-- andy-pdf-edition:start -->
+## 精美 PDF 电子书
+
+[**免费下载《Threads 赚钱实战指南》**](pdf/threads-income-handbook-guide.pdf) · [直接下载 PDF](https://github.com/AIPMAndy/threads-income-handbook/raw/refs/heads/main/pdf/threads-income-handbook-guide.pdf)
+
+**57 页 · A5 手机阅读版 · 可点击目录 · 0.76 MB**  
+整理日期：2026-11-13。包含完整实操正文、案例、模板与原始来源；平台规则与价格沿用原资料的核查日期。
+
+**作者与服务（广告）**：AI 酋长 Andy · 个人微信 **AIPMAndy** · [个人官网](https://metaver.vip/) · [公司官网](https://www.a6no1.cn/)。免费教程可直接使用，咨询与合作自愿选择。
+<!-- andy-pdf-edition:end -->
+
 **Threads 怎么赚钱？** 这是 AI酋长Andy 写的免费开源中文指南：24 章教程、6 条商业路径、24 份模板和 30 天实践计划，覆盖内容定位、客户转化与交付。所有收入计算都只是假设，不构成收益承诺。
 
 *How to make money on Threads: a free, open-source Chinese guide by AI Chief Andy (@AIPMAndy), with 24 chapters, 6 business paths, 24 templates and a 30-day plan.*
