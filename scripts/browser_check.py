@@ -21,6 +21,7 @@ def audit():
         nonlocal assertions
         assertions+=1
         assert value,message
+    shots=ROOT/'artifacts'/'browser';shots.mkdir(parents=True,exist_ok=True)
     with local_server() as url, sync_playwright() as p:
         launch={'headless':True,'args':['--no-sandbox']}
         if Path('/usr/bin/chromium').exists():launch['executable_path']='/usr/bin/chromium'
@@ -76,12 +77,12 @@ def audit():
                 page.reload(wait_until='domcontentloaded')
                 ok(page.locator('.funnel-history-delete').count()==2,'local history persists across reloads')
                 page.on('dialog',lambda dialog:dialog.accept())
-                if vw==1440: page.screenshot(path=str(ROOT.parent/'threads-v2-lab-desktop.png'),full_page=True)
-                if vw==390: page.screenshot(path=str(ROOT.parent/'threads-v2-lab-mobile.png'),full_page=True)
+                if vw==1440: page.screenshot(path=str(shots/'threads-v2-lab-desktop.png'),full_page=True)
+                if vw==390: page.screenshot(path=str(shots/'threads-v2-lab-mobile.png'),full_page=True)
                 page.locator('.funnel-history-delete').first.click()
                 ok(page.locator('.funnel-history-delete').count()==1,'explicit deletion removes one period')
                 page.goto(url+'/index.html',wait_until='domcontentloaded')
-                if vw==1440:page.screenshot(path=str(ROOT.parent/'threads-v2-home-desktop.png'),full_page=False)
+                if vw==1440:page.screenshot(path=str(shots/'threads-v2-home-desktop.png'),full_page=False)
                 page.close()
         finally:browser.close()
     ok(not issues,'JS errors '+str(issues))
