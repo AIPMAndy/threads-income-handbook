@@ -20,3 +20,16 @@ jobs:
         run: python3 -m py_compile scripts/live_verify.py
       - name: Validate local-only business logic
         run: node scripts/js_logic_check.js
+      - name: Install headless Chromium
+        run: |
+          python3 -m pip install playwright
+          python3 -m playwright install --with-deps chromium
+      - name: Real Chromium responsive and workbench regression
+        run: python3 scripts/browser_check.py
+      - name: Archive visual regression screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: threads-browser-screenshots
+          path: artifacts/browser/*.png
+          if-no-files-found: ignore

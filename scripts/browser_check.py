@@ -21,10 +21,13 @@ def audit():
         nonlocal assertions
         assertions+=1
         assert value,message
+    shots=ROOT/'artifacts'/'browser';shots.mkdir(parents=True,exist_ok=True)
     with local_server() as url, sync_playwright() as p:
-        browser=p.chromium.launch(headless=True,executable_path='/usr/bin/chromium', args=['--no-sandbox'])
+        launch={'headless':True,'args':['--no-sandbox']}
+        if Path('/usr/bin/chromium').exists():launch['executable_path']='/usr/bin/chromium'
+        browser=p.chromium.launch(**launch)
         try:
-            for vw in [1440,390]:
+            for vw in [1440,390,360]:
                 page=browser.new_page(viewport={'width':vw,'height':920},device_scale_factor=1)
                 page.on('pageerror',lambda e:issues.append(f'pageerror {e}'))
                 for route in ['/index.html','/lab.html','/plan.html','/guide/dm.html','/handbook.html','/templates.html']:
@@ -51,10 +54,35 @@ def audit():
                 ok(page.locator('#lab-copy-funnel').is_disabled(),'fractional order blocked')
                 page.fill('#f-orders','2')
                 ok(page.locator('#lab-copy-funnel').is_enabled(),'corrected report enabled')
-                if vw==1440: page.screenshot(path=str(ROOT.parent/'threads-v2-lab-desktop.png'),full_page=True)
-                if vw==390: page.screenshot(path=str(ROOT.parent/'threads-v2-lab-mobile.png'),full_page=True)
+                # Record two actual aggregate periods, export spreadsheet-safe CSV,
+                # reload, and verify persistence. This does not create customer data.
+                page.fill('#f-period','2026-11-14')
+                ok(page.locator('#f-save').is_enabled(),'period save enabled')
+                page.locator('#f-save').click()
+                ok('已保存 2026-11-14' in page.locator('#f-history-status').inner_text(),'period saved')
+                page.locator('#f-save').click()
+                ok('已经保存过' in page.locator('#f-history-status').inner_text(),'duplicate not overwritten')
+                page.fill('#f-period','2026-11-21')
+                page.fill('#f-received','1200')
+                page.locator('#f-save').click()
+                ok('¥300' in page.locator('#f-history-list').inner_text(),'latest contribution delta')
+                ok(page.locator('.funnel-history-delete').count()==2,'two period rows')
+                with page.expect_download() as got_download:
+                    page.locator('#f-export').click()
+                download=got_download.value
+                ok(download.suggested_filename=='threads-funnel-history.csv','download filename')
+                content=Path(download.path()).read_bytes()
+                ok(content.startswith(b'\xef\xbb\xbf'),'UTF-8 BOM CSV')
+                ok(b'2026-11-14' in content and b'2026-11-21' in content,'CSV includes both periods')
+                page.reload(wait_until='domcontentloaded')
+                ok(page.locator('.funnel-history-delete').count()==2,'local history persists across reloads')
+                page.on('dialog',lambda dialog:dialog.accept())
+                if vw==1440: page.screenshot(path=str(shots/'threads-v2-lab-desktop.png'),full_page=True)
+                if vw==390: page.screenshot(path=str(shots/'threads-v2-lab-mobile.png'),full_page=True)
+                page.locator('.funnel-history-delete').first.click()
+                ok(page.locator('.funnel-history-delete').count()==1,'explicit deletion removes one period')
                 page.goto(url+'/index.html',wait_until='domcontentloaded')
-                if vw==1440:page.screenshot(path=str(ROOT.parent/'threads-v2-home-desktop.png'),full_page=False)
+                if vw==1440:page.screenshot(path=str(shots/'threads-v2-home-desktop.png'),full_page=False)
                 page.close()
         finally:browser.close()
     ok(not issues,'JS errors '+str(issues))
