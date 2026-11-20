@@ -421,3 +421,27 @@ a:hover{color:#0066cc}
  .footer-bottom{flex-wrap:wrap;gap:15px}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
+
+/* Browser-only period history in the Threads income workbench. */
+.funnel-history{margin-top:30px;padding-top:26px;border-top:1px solid #e6e6eb}
+.funnel-history-head h3{font-size:clamp(20px,2.2vw,27px);letter-spacing:-.025em;color:#1d1d1f;margin:10px 0 7px}
+.funnel-history-head p,.funnel-history-note,.funnel-history-contact{font-size:13px;line-height:1.75;color:#62626b}
+.funnel-history-actions{display:flex;flex-wrap:wrap;align-items:end;gap:12px;margin:20px 0 12px}
+.funnel-history-actions label{display:grid;gap:7px;font-size:12px;color:#55555f}
+.funnel-history-actions input{background:#fff;color:#1d1d1f;border:1px solid #d9d9df;border-radius:10px;padding:11px;min-height:43px;font:inherit}
+.funnel-history-actions .btn{min-height:43px}
+.funnel-history-actions .btn:disabled{opacity:.43;cursor:not-allowed}
+.funnel-history-note{margin:6px 0 15px}
+.funnel-history-list{max-width:100%}
+.funnel-history-diff{margin:15px 0 12px;font-size:13px;color:#323239}
+.funnel-history-scroll{overflow-x:auto;border:1px solid #e8e8ed;border-radius:12px}
+.funnel-history-table{width:100%;min-width:610px;border-collapse:collapse;text-align:left;font-size:12px}
+.funnel-history-table caption{text-align:left;padding:12px 14px;background:#f8f8fa;color:#62626b}
+.funnel-history-table th,.funnel-history-table td{padding:12px 11px;white-space:nowrap;border-bottom:1px solid #eeeef2;color:#303038}
+.funnel-history-table th{font-weight:650;background:#f8f8fa;color:#62626b}
+.funnel-history-table tr:last-child td{border-bottom:0}
+.funnel-history-delete{border:1px solid #d0d0d7;border-radius:7px;background:#fff;color:#43434b;font:inherit;padding:6px 9px;cursor:pointer}
+.funnel-history-delete:focus-visible,.funnel-history-actions input:focus-visible{outline:3px solid #2972cd;outline-offset:3px}
+.funnel-history-contact{margin-top:18px}
+.funnel-history-contact a{color:#1256a5;text-underline-offset:3px}
+@media(max-width:650px){.funnel-history{margin-top:23px;padding-top:20px}.funnel-history-actions{display:grid;grid-template-columns:1fr 1fr}.funnel-history-actions label{grid-column:1/-1}.funnel-history-actions .btn{width:100%;white-space:normal;padding:10px 8px}.funnel-history-table{min-width:610px}}
