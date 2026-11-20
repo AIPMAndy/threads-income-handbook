@@ -16,5 +16,7 @@ jobs:
         run: python3 scripts/build.py --check
       - name: Validate HTML links, metadata, and source mapping
         run: python3 scripts/check.py
+      - name: Syntax-check live deployment gate
+        run: python3 -m py_compile scripts/live_verify.py
       - name: Validate local-only business logic
         run: node scripts/js_logic_check.js
